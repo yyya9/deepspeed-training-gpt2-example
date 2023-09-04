@@ -1,0 +1,12 @@
+python prompt-tuning.py
+    --model_name_or_path .f \
+    --dataset_name samsun \
+    --fp16 \
+    --per_device_train_batch_size 3 \
+    --learning_rate 2e-5 \
+    --num_train_epochs 5 \
+    --output_dir6_0 \
+    --overwrite_output_dir \
+    --save_steps 0 \
+    --max_steps $MAX_STEPS \
+    --save_strategy "no"
